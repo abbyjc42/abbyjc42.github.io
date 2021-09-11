@@ -1,5 +1,5 @@
 body {
-    background-color: dimgray;
+    background-color: black;
     margin: 0;
 }
 
@@ -14,18 +14,27 @@ body {
 }
 
 .content {
+    position: relative;
     background-color: azure;
-    opacity: 0.5;
+    opacity: 0.75;
     color: black;
-    margin-left: auto;
-    margin-right: auto;
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
     padding: 15px;
     font-size: 16px;
 }
 
 .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
     background-color: darkolivegreen;
     font-size: 11px;
+    padding: 5px;
+    color: azure;
 }
 
 h1, h3 {
