@@ -6,10 +6,28 @@ body {
 .header-div {
     background-color: darkolivegreen;
     color: azure;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-top: 25px;
+    padding-bottom: 15px;
 }
 
 .content {
     background-color: azure;
     opacity: 0.5;
     color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.footer {
+    background-color: darkolivegreen;
+    font-size: 11px;
+}
+
+h1, h3 {
+    text-align: center;
 }
