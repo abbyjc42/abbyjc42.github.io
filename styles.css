@@ -1,0 +1,15 @@
+body {
+    background-color: dimgray;
+    margin: 0;
+}
+
+.header-div {
+    background-color: darkolivegreen;
+    color: azure;
+}
+
+.content {
+    background-color: azure;
+    opacity: 0.5;
+    color: black;
+}
